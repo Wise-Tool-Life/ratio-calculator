@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wise-tool-life.github.io/ratio-calculator/sitemap.xml
