@@ -1,1 +1,1 @@
-Add SEO meta tags and sitemap/robots files
+Add Google site verification meta tag
