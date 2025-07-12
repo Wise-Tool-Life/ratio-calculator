@@ -1,27 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
 body {
-    background-color: #f8f9fa;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 550px;
 }
 
-.card-header h1 {
-    font-size: 1.8rem;
+.calculator-card .card-header {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    border-bottom: none;
+    border-radius: 0.75rem 0.75rem 0 0;
 }
 
-.form-control {
+.calculator-card .card-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.form-control-lg {
     text-align: center;
+    font-weight: 500;
 }
 
-/* Chrome, Safari, Edge, Opera */
+.btn-primary {
+    background-color: #4e54c8;
+    border-color: #4e54c8;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #3c41a0;
+    border-color: #3c41a0;
+}
+
+.btn-outline-secondary {
+    transition: all 0.2s ease-in-out;
+}
+
+.how-to-use {
+    background-color: #ffffff;
+}
+
+.how-to-use .list-group-item {
+    background-color: transparent;
+    border-color: #e9ecef;
+    padding-left: 0;
+}
+
+/* 숫자 입력 필드의 화살표 제거 */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
